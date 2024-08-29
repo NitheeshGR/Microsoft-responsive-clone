@@ -56,3 +56,59 @@ ul li a{
         display:none;
     }
 }
+.d-block{
+    object-fit: cover;
+    height: 40em;
+    width: 100%;
+}
+.icons{
+    height:3em;
+}
+.row1{
+    height: 20em;
+    align-items: center;
+}
+row{
+    height: 20em;
+}
+@media (max-width:576px) {
+    .icons{
+       height: 2em;
+        
+    }.user2{
+        font-size: smaller;
+    }
+    
+}.home{
+    width: 100%;
+    height: 13em;
+ padding-top: 15px; 
+    
+}
+.me{
+    width: 40px;
+    height: 40px;
+}
+.we{
+    font-size: 22px;
+    padding: 4px;
+}.foot{
+    font-size: smaller;
+}
+.foot-contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25em;
+    background-color: #F2F2F2;
+}
+@media(max-width:1000px){
+    .foot-contain{
+        height: 50em;
+    }
+}
+@media(max-width:576px){
+    .foot-contain{
+        height: 80em;
+    }
+}
